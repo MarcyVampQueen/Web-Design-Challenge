@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>ACME Corp Location Survey</title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+
 </head>
 <body>
-  
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- NavBar area -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="index.html">ACME Corp</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -39,6 +41,64 @@
       </ul>
     </div>
   </nav>
+
+  <!-- Content begins -->
+  <br>
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-6 pb-2">
+        <div class="bg-secondary p-2">
+        <a href="compensation.html">
+          <h5>Labor Compensation</h5>
+          <img src="assets/laborcompcost.png" alt="Labor Cost" class="imgcolumn">
+        </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="bg-secondary p-2">
+          <a href="productivity.html">
+            <h5>Labor Productivity</h5>
+            <img src="assets/laborproductivity.png" alt="Productivity" class="imgcolumn">
+          </a>
+        </div>
+      </div>
+      <br>
+    </div>
+    <br>
+    <div class="row text-center">
+      <div class="col-md-6 pb-2">
+        <div class="bg-secondary p-2">
+        <a href="correlation.html">
+          <h5>Compensation & Productivity Correlation</h5>
+          <img src="assets/ChangePrct_Real_Hour_Labor_Comp.png" alt="Correlation" class="imgcolumn">
+        </a> 
+        </div>
+      </div>
+      <div class="col-md-6 pb-2">
+        <div class="bg-secondary p-2">
+        <a href="trends.html">
+        <h5>Trend Analysis</h5>
+        <div class="row">
+          <div class="col-md-6 pb-2">
+            <img src="assets/Trend-line-three.png" alt="Productivity Trends" class="imgcolumn">
+          </div>
+          <div class="col-md-6">
+            <img src="assets/production_trend.png" alt="Value of Production" class="imgcolumn">
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <img src="assets/5_Lowest_UnitLabor_Cost.png" alt="Productivity" class="imgcolumn">
+          </div>
+        </div>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
