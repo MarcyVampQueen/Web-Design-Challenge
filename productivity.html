@@ -41,37 +41,53 @@
       </ul>
     </div>
   </nav>
-
-  <!-- Content -->
-  <div class="container">
-    <div class="row">
-      <div class="text-center col-md-12">
-        <br>
-        <h1>Labor Productivity Across the U.S.</h1>
-        <br>
+  <br>
+  <br>
+    <!-- Content begins here -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+            <div class="bg-dark p-3">
+              <h1 class="text-center">
+                Labor Productivity Across the U.S.
+              </h1>
+              <br>
+              <img src="assets/laborproductivity.png" alt="Productivity" class="imgcolumn">
+              <br>
+              <br>
+              <h4 class="text-center">"What states have the highest labor productivity?"</h4>
+              <p>
+                To address this, we looked at the average Labor Productivity over the last 5 years for each state. 
+                We found this by grouping the data by state and averaging the labor compensation across the last 5 years.
+                Then, we grabbbed the resulting top 15 states and compared it with the 15 lowest compensation states. 
+              </p>
+            </div>
+        </div>
+        <div class="text-center col-md-4">
+            <div class="bg-warning p-3">
+              <h3>Visualizations</h3>
+              <hr class="bg-light">
+              <a href="compensation.html">
+                <img src="assets/laborcompcost.png" alt="Labor Cost" class="imgcolumn">
+                <p>Labor Compensation</p>
+              </a>
+              <a href="productivity.html">
+                <img src="assets/laborproductivity.png" alt="Productivity" class="imgcolumn activePage">
+                <p>Labor Productivity</p>
+              </a>
+              <a href="correlation.html">
+                <img src="assets/ChangePrct_Real_Hour_Labor_Comp.png" alt="Correlation" class="imgcolumn">
+                <p>Compensation & Productivity Correlation</p>
+              </a>  
+              <a href="trends.html">
+                <img src="assets/Trend-line-three.png" alt="Trends" class="imgcolumn">
+                <p>Trend Analysis</p>
+              </a>
+            </div>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <img src="assets/laborproductivity.png" alt="Productivity" class="imgcolumn">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2"></div>
-      <div class="text-justify col-md-8">
-        <br>
-        <h4 class="text-center">"What states have the highest labor productivity?"</h4>
-        <p>
-          To address this, we looked at the average Labor Productivity over the last 5 years for each state. 
-          We found this by grouping the data by state and averaging the labor compensation across the last 5 years.
-          Then, we grabbbed the resulting top 15 states and compared it with the 15 lowest compensation states. 
-        </p>
-      </div>
-    </div>
-  </div>
-
-
+    
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
